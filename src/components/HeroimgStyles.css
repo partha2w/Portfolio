@@ -1,0 +1,67 @@
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/landscape.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-container {
+    max-width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    align-items: center;
+}
+
+.hero-container h1 {
+    font-size: 3.8rem;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.content .my-img {
+    max-width: 60%;
+    border-radius: 30%;
+    box-shadow: rgb(1, 174, 255) 0px 15px 35px;
+    transition: .5s;
+}
+
+.content .my-img:hover {
+    box-shadow: rgb(1, 174, 255) 0px -15px 35px;
+}
+
+.hero-container p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.hero-container .content {
+    margin: 20% auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.right {
+    margin-top: 0;
+}
+
+@media screen and (max-width:740px) {
+    .hero-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-container h1 {
+        font-size: 3rem;
+    }
+
+    .content .my-img {
+        max-width: 80%;
+        margin-top: -20%;
+    }
+
+    .hero-container p {
+        margin-top: 15%;
+    }
+
+}

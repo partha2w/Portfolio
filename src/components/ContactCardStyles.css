@@ -1,0 +1,17 @@
+.contact-me{
+    max-width: 40%;
+    text-align: center;
+    margin: 4% auto;
+    display: grid;
+    grid-gap: 20px;
+
+}
+.contact-me a:hover{
+    color: black;
+}
+
+@media screen and (max-width:640px){
+    .contact-me{
+        max-width: 80%;
+    }
+}

@@ -1,0 +1,50 @@
+.about{
+    width: 90%;
+    margin:3rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+}
+
+
+
+.about-content li{
+    text-align: left;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.about-content{
+    text-align: center;
+}
+
+.about-content p{
+    margin: 3% 0;
+    text-align: left;
+}
+
+.skill-table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+.skill-table td{
+    padding: 2%;
+}
+
+.about .btn:hover{
+    color: black;
+}
+
+@media screen and (max-width:740px) {
+    .skill-heading{
+        margin-top: 2.5rem;
+    }
+    .about{
+        grid-template-columns: 1fr;
+    }
+    .skill-table{
+        margin-bottom: 8%;
+    }
+}
