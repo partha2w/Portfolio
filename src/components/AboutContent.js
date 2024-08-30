@@ -55,14 +55,6 @@ const AboutContent = () => {
             <td>Problem-Solving</td>
             <td>⭐⭐⭐⭐</td>
           </tr>
-          <tr>
-            <td>Attention to Detail</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Fast Lerner</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
         </table>
       </div>
     </div>
