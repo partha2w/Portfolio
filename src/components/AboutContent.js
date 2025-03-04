@@ -36,11 +36,11 @@ const AboutContent = () => {
             <td>⭐⭐⭐⭐</td>
           </tr>
           <tr>
-            <td>MongoDB</td>
+            <td>MongoDB, PostgreSQL</td>
             <td>⭐⭐⭐</td>
           </tr>
           <tr>
-            <td>C programming</td>
+            <td>C, C++, Python</td>
             <td>⭐⭐⭐⭐</td>
           </tr>
           <tr>
